@@ -1,0 +1,210 @@
+body {
+    background: #eeeeee;
+    font-family: 'Roboto',sans-serif;
+}
+footer {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: right;
+}
+.copyright {
+    text-align: right;
+    padding: 0px 25px;
+    font-size: 70%;
+}
+h1 {
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    background-color: #9f84e6;
+    text-align: center;
+    padding: 20px;
+}
+h3 {
+    font-family: Arial, 'Courier New';
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+/* Classes */
+
+.centre {
+    text-align: center;
+}
+
+/* .dropdown {
+    display: inline-block;
+    color: #000000;
+    padding: 10px 30px 10px 15px;
+}
+
+.dvdList {
+    float: left;
+    padding: 45px;
+    border: 2px;
+    background-color: #c2d4dd;
+    width: 30%;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+*/
+.button-main {
+    display: inline-block;
+    /* clear: both; */
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    font-weight:300;
+    cursor: pointer;
+    background-color: #9f84e6;
+    border: 2px solid #666666;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 30%;
+    min-width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* margin-left: 25px; */
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;  -moz-border-radius: 10px;  border-radius: 10px;
+}
+.button-main:hover {
+    color: #000000;
+    background-color: #7f84e6;
+}
+
+/*
+.dvdName {
+    cursor: pointer;
+}
+.dvdName::before {
+    content: '\25FD  ';
+}
+*/
+
+.user-input {
+    background-color: transparent;
+    width: 170px;
+    padding: 10px 0px 10px 40px;
+}
+.user_data {
+    margin-bottom: 2rem;
+}
+
+/*
+.dvdCover {
+    padding: 20px 20% 0px 50px;
+}
+.coverFront {
+    display: inline-block;
+}
+.coverBack {
+    display: inline-block;
+}
+
+.selectLabel {
+    padding: 10px 0px 10px 30px;
+}
+
+.fullWidthBreak {
+    display: block;
+    width: 100%;
+}
+
+.bodyDetail {
+    padding: 20px 0px 0px 40px;
+    font-weight: 500;
+}
+.bodyLink {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.leftPadding {
+    padding-left: 230px;
+}
+
+/* Classes for Modal */
+
+/*
+.Modal {
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    right: 35%;
+    bottom: auto;
+    background-color: #eeeefe;
+  }
+
+/* .Overlay {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    right: 20%;
+    bottom: 10;
+    background-color: rgb(173, 148, 198);
+  }  */
+
+  /*
+.newDvdLabel {
+    padding: 10px 10px 10px 30px;
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+.newDvdInput {
+    padding: 10px 10px 10px 30px;
+    display: inline-block;
+    width: 50%;
+}
+.newDvdDropdown {
+    padding: 10px 30px 10px 0px;
+}
+
+.newDvdButton {
+    display: inline-block;
+    width: 40%;
+    margin-left: 30px;
+}
+.newDvdButtonContainer {
+    padding: 50px 100px 20px 100px;
+}
+  
+
+
+/* IDs */
+
+/*
+ #select_body {
+     display: inline-block;
+ }
+*/
+
+ #enter_name {
+     /* display: inline-block; */
+     margin-bottom: 1rem;
+ }
+ #enter_score {
+    /* display: inline-block; */
+    margin-bottom: 1rem;
+}
+/*
+ #searchTextInput {
+     height: 15px;
+     background-color: #c2d4dd;
+ }
+
+ #bodyDvdDetails {
+     float: right;
+     background-color: yellowgreen;
+     width: 60%;
+     margin-right: 15px;
+} 
+
+ */
