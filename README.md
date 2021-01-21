@@ -9,6 +9,6 @@ This App. runs locally on port 8082
 
 To run the App.
 ---------------
-Download the app source from github
-From the project root directory:  npm run dev-server
+Download the app source from github.
+From the project root directory:  npm run dev-server.
 Then point your browser to http://localhost:8082/
