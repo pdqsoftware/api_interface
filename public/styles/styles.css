@@ -29,8 +29,6 @@ h3 {
 
 
 
-
-
 /* Classes */
 
 .centre {
@@ -41,27 +39,8 @@ h3 {
     text-align: center;
     width: 20rem;
 }
-
-
-/* .dropdown {
-    display: inline-block;
-    color: #000000;
-    padding: 10px 30px 10px 15px;
-}
-
-.dvdList {
-    float: left;
-    padding: 45px;
-    border: 2px;
-    background-color: #c2d4dd;
-    width: 30%;
-    margin-bottom: 15px;
-    margin-left: 15px;
-}
-*/
 .button-main {
     display: inline-block;
-    /* clear: both; */
     font-family: 'Roboto',sans-serif;
     color: #333333;
     font-size: 1.5rem;
@@ -76,7 +55,6 @@ h3 {
     min-width: 25%;
     padding-top: 1.5rem;
     padding-bottom: 15px;
-    /* margin-left: 25px; */
     margin-bottom: 5rem;
     border-radius: 10px;
     -webkit-border-radius: 10px;  -moz-border-radius: 10px;  border-radius: 10px;
@@ -96,98 +74,17 @@ h3 {
     margin-bottom: 2rem;
 }
 
-/*
-.dvdCover {
-    padding: 20px 20% 0px 50px;
-}
-.coverFront {
-    display: inline-block;
-}
-.coverBack {
-    display: inline-block;
-}
-
-.selectLabel {
-    padding: 10px 0px 10px 30px;
-}
-
-.fullWidthBreak {
-    display: block;
-    width: 100%;
-}
-
-.bodyDetail {
-    padding: 20px 0px 0px 40px;
-    font-weight: 500;
-}
-.bodyLink {
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.leftPadding {
-    padding-left: 230px;
-}
-
-/* Classes for Modal */
-
-/*
-.Modal {
-    position: absolute;
-    top: 40px;
-    left: 25%;
-    right: 35%;
-    bottom: auto;
-    background-color: #eeeefe;
-  }
-
-/* .Overlay {
-    position: fixed;
-    top: 10%;
-    left: 10%;
-    right: 20%;
-    bottom: 10;
-    background-color: rgb(173, 148, 198);
-  }  */
-
-  /*
-.newDvdLabel {
-    padding: 10px 10px 10px 30px;
-    display: inline-block;
-    width: 30%;
-    text-align: right;
-}
-.newDvdInput {
-    padding: 10px 10px 10px 30px;
-    display: inline-block;
-    width: 50%;
-}
-.newDvdDropdown {
-    padding: 10px 30px 10px 0px;
-}
-
-.newDvdButton {
-    display: inline-block;
-    width: 40%;
-    margin-left: 30px;
-}
-.newDvdButtonContainer {
-    padding: 50px 100px 20px 100px;
-}
-  
 
 
 /* IDs */
 
 #about {
-    /* display: block; */
     cursor: pointer;
     text-align: right;
     font-family: 'Roboto',sans-serif;
     font-weight:300;
     padding-right: 10%;
     font-size: 3rem;
-    /* text-decoration: none; */
 }
 #about-link {
     text-decoration: none;
@@ -208,17 +105,3 @@ h3 {
  #enter_score {
     margin-bottom: 1rem;
 }
-/*
- #searchTextInput {
-     height: 15px;
-     background-color: #c2d4dd;
- }
-
- #bodyDvdDetails {
-     float: right;
-     background-color: yellowgreen;
-     width: 60%;
-     margin-right: 15px;
-} 
-
- */

@@ -1,6 +1,5 @@
 import React from 'react'
 
-// class Result extends React.Component {
 function Result(props) {
     const lines = props.allScores.map((item, index) => {
         return (
@@ -19,7 +18,6 @@ function Result(props) {
             <div>
                 <p>Which breaks down as this:</p>
                 <div>{ lines }</div>
-                
             </div>
         )
     }
