@@ -7,7 +7,7 @@ class Button extends React.Component {
             <div className="centre">
                 { this.props.buttonType==="link" ? 
                     <div className="button-main">
-                    <a href={ this.props.buttonAref } >{ this.props.buttonText }</a></div>
+                    <a id="button-link" href={ this.props.buttonAref } >{ this.props.buttonText }</a></div>
                 :
                     <div className="button-main" onClick={ this.props.buttonAction }>{ this.props.buttonText } </div>
                 }

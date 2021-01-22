@@ -58,7 +58,8 @@ h3 {
     /* clear: both; */
     font-family: 'Roboto',sans-serif;
     color: #333333;
-    font-weight:300;
+    font-size: 1.5rem;
+    font-weight:600;
     cursor: pointer;
     background-color: #9f84e6;
     border: 2px solid #666666;
@@ -67,7 +68,7 @@ h3 {
     transition: all 0.2s;
     width: 30%;
     min-width: 25%;
-    padding-top: 15px;
+    padding-top: 1.5rem;
     padding-bottom: 15px;
     /* margin-left: 25px; */
     margin-bottom: 5rem;
@@ -79,18 +80,10 @@ h3 {
     background-color: #7f84e6;
 }
 
-/*
-.dvdName {
-    cursor: pointer;
-}
-.dvdName::before {
-    content: '\25FD  ';
-}
-*/
-
 .user-input {
     background-color: transparent;
     width: 170px;
+    height: 20px;
     padding: 10px 0px 10px 40px;
 }
 .user_data {
@@ -180,6 +173,30 @@ h3 {
 
 /* IDs */
 
+#about {
+    /* display: block; */
+    cursor: pointer;
+    text-align: right;
+    font-family: 'Roboto',sans-serif;
+    font-weight:300;
+    padding-right: 10%;
+    font-size: 3rem;
+    /* text-decoration: none; */
+}
+#about-link {
+    text-decoration: none;
+    color: red;
+}
+
+#button-link {
+    text-decoration: none;
+    color: #333333;
+}
+#button-link:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
 /*
  #select_body {
      display: inline-block;
@@ -187,11 +204,9 @@ h3 {
 */
 
  #enter_name {
-     /* display: inline-block; */
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
  }
  #enter_score {
-    /* display: inline-block; */
     margin-bottom: 1rem;
 }
 /*

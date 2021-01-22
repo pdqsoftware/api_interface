@@ -85,6 +85,7 @@ class ApiInterface extends React.Component {
         request.setRequestHeader("Content-Type", "application/json");
         request.setRequestHeader("Access-Control-Allow-Origin", "*");
         request.setRequestHeader("Access-Control-Allow-Methods", "*");
+        request.setRequestHeader("Access-Control-Allow-Header", "*");
         request.setRequestHeader("X-Amzn-Trace-Id", "Root=1-60099694-49cfc61715c4e87af2c2eb0d;Sampled=0");
         request.send(body)
     }
