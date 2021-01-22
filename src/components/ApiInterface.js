@@ -96,7 +96,7 @@ class ApiInterface extends React.Component {
         return (
             <div>
                 <Header />
-                <Button buttonType="link" buttonAref="https://userid-pdqsoftware.auth.eu-west-1.amazoncognito.com/login?client_id=564nbglbvffhsnbpgrbdv0msr8&response_type=code&scope=email+openid&redirect_uri=https://t71yer9m3m.execute-api.eu-west-1.amazonaws.com/public/list"  buttonText="Login" />
+                <Button buttonType="link" buttonAref="https://userid-pdqsoftware.auth.eu-west-1.amazoncognito.com/login?client_id=564nbglbvffhsnbpgrbdv0msr8&response_type=code&scope=email+openid&redirect_uri=https://t71yer9m3m.execute-api.eu-west-1.amazonaws.com/public/list"  buttonText="Login2" />
                 <div className="centre user_data">
                     <Name nameChange={ this.handleNameChange } />
                     <Score scoreChange={ this.handleScoreChange }/>
