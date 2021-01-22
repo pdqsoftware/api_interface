@@ -36,6 +36,12 @@ h3 {
 .centre {
     text-align: center;
 }
+.centre-output {
+    display: inline;
+    text-align: center;
+    width: 20rem;
+}
+
 
 /* .dropdown {
     display: inline-block;
@@ -196,13 +202,6 @@ h3 {
     text-decoration: none;
     color: #000000;
 }
-
-/*
- #select_body {
-     display: inline-block;
- }
-*/
-
  #enter_name {
     margin-bottom: 1rem;
  }
