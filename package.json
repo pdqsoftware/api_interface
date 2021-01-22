@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "Portfolio Boilerplate Code",
+  "description": "Portfolio - API Interface",
   "main": "index.js",
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -19,7 +19,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "node src/app.js",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "babel-build": "babel ./src/app.js -o ./public/scripts/bundle.js --presets env",
+    "build": "webpack --mode production"
   },
   "author": "Paul Pritchard",
   "license": "ISC"
