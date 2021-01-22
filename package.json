@@ -21,7 +21,8 @@
     "start": "node src/app.js",
     "dev-server": "webpack-dev-server",
     "babel-build": "babel ./src/app.js -o ./public/scripts/bundle.js --presets env",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "webpack": "webpack"
   },
   "author": "Paul Pritchard",
   "license": "ISC"

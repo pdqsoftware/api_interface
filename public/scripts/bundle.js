@@ -8,7 +8,7 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _ApiInterface = require('./ApiInterface');
+var _ApiInterface = require('./components/ApiInterface');
 
 var _ApiInterface2 = _interopRequireDefault(_ApiInterface);
 
